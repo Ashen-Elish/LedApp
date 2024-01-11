@@ -1,9 +1,3 @@
----------------------------- PROCESS STARTED (7819) for package com.example.ledapptwo01 ----------------------------
----------------------------- PROCESS STARTED (7819) for package com.example.ledapptwo01 ----------------------------
---------- beginning of main
---------- beginning of kernel
---------- beginning of system
---------- beginning of crash
 2024-01-11 21:24:31.121  7294-7294  ple.ledapptwo01         com.example.ledapptwo01              I  Late-enabling -Xcheck:jni
 2024-01-11 21:24:31.310  7294-7294  ple.ledapptwo01         com.example.ledapptwo01              I  Using CollectorTypeCC GC.
 2024-01-11 21:24:31.315  7294-7294  ple.ledapptwo01         com.example.ledapptwo01              W  Unexpected CPU variant for x86: x86_64.
@@ -1347,3 +1341,327 @@
 2024-01-11 21:25:44.387  7819-7846  CameraStateMachine      com.example.ledapptwo01              D  Publishing new public camera state CameraState{type=CLOSED, error=null}
 2024-01-11 21:25:44.387  7819-7846  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [] for camera: 0
 2024-01-11 21:25:46.864  7819-7859  ProfileInstaller        com.example.ledapptwo01              D  Installing profile for com.example.ledapptwo01
+2024-01-11 22:28:51.230  8897-8897  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/data/com.example.ledapptwo01/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
+2024-01-11 22:28:51.231  8897-8897  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:28:51.231  8897-8897  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:28:51.406  8897-8897  nativeloader            com.example.ledapptwo01              D  Configuring clns-6 for other apk /data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/lib/x86_64:/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.ledapptwo01
+2024-01-11 22:28:51.422  8897-8897  GraphicsEnvironment     com.example.ledapptwo01              V  Currently set values for:
+2024-01-11 22:28:51.422  8897-8897  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_pkgs=[]
+2024-01-11 22:28:51.423  8897-8897  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_values=[]
+2024-01-11 22:28:51.423  8897-8897  GraphicsEnvironment     com.example.ledapptwo01              V  ANGLE GameManagerService for com.example.ledapptwo01: false
+2024-01-11 22:28:51.423  8897-8897  GraphicsEnvironment     com.example.ledapptwo01              V  com.example.ledapptwo01 is not listed in per-application setting
+2024-01-11 22:28:51.423  8897-8897  GraphicsEnvironment     com.example.ledapptwo01              V  Neither updatable production driver nor prerelease driver is supported.
+2024-01-11 22:28:51.474  8897-8923  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2024-01-11 22:28:51.476  8897-8923  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2024-01-11 22:28:51.480  8897-8923  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2024-01-11 22:28:51.494  8897-8897  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 263076149; UID 10191; state: DISABLED
+2024-01-11 22:28:51.539  8897-8897  AppCompatDelegate       com.example.ledapptwo01              D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-01-11 22:28:51.607  8897-8897  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2024-01-11 22:28:51.607  8897-8897  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2024-01-11 22:28:51.708  8897-8897  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 237531167; UID 10191; state: DISABLED
+2024-01-11 22:28:51.710  8897-8897  OpenGLRenderer          com.example.ledapptwo01              W  Unknown dataspace 0
+2024-01-11 22:28:51.736  8897-8921  OpenGLRenderer          com.example.ledapptwo01              W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2024-01-11 22:28:51.736  8897-8921  OpenGLRenderer          com.example.ledapptwo01              W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2024-01-11 22:28:51.775  8897-8921  Gralloc4                com.example.ledapptwo01              I  mapper 4.x is not supported
+2024-01-11 22:28:51.824  8897-8921  OpenGLRenderer          com.example.ledapptwo01              E  Unable to match the desired swap behavior.
+2024-01-11 22:28:53.217  8897-8897  AndroidRuntime          com.example.ledapptwo01              D  Shutting down VM
+2024-01-11 22:28:53.221  8897-8897  AndroidRuntime          com.example.ledapptwo01              E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.ledapptwo01, PID: 8897
+                                                                                                    java.lang.IllegalStateException: Could not execute method for android:onClick
+                                                                                                    	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:473)
+                                                                                                    	at android.view.View.performClick(View.java:7659)
+                                                                                                    	at android.view.View.performClickInternal(View.java:7636)
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30156)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:958)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:205)
+                                                                                                    	at android.os.Looper.loop(Looper.java:294)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8177)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:468)
+                                                                                                    	at android.view.View.performClick(View.java:7659) 
+                                                                                                    	at android.view.View.performClickInternal(View.java:7636) 
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0) 
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30156) 
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:958) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:205) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:294) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8177) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971) 
+                                                                                                    Caused by: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.ledapptwo01/com.example.ledapptwo01.DrawActivity}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+                                                                                                    	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2236)
+                                                                                                    	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1878)
+                                                                                                    	at android.app.Activity.startActivityForResult(Activity.java:5589)
+                                                                                                    	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+                                                                                                    	at android.app.Activity.startActivityForResult(Activity.java:5547)
+                                                                                                    	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+                                                                                                    	at android.app.Activity.startActivity(Activity.java:6045)
+                                                                                                    	at android.app.Activity.startActivity(Activity.java:6012)
+                                                                                                    	at com.example.ledapptwo01.MainActivity.goToDrawPage(MainActivity.java:91)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:468) 
+                                                                                                    	at android.view.View.performClick(View.java:7659) 
+                                                                                                    	at android.view.View.performClickInternal(View.java:7636) 
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0) 
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30156) 
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:958) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:205) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:294) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8177) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971) 
+2024-01-11 22:28:53.231  8897-8897  Process                 com.example.ledapptwo01              I  Sending signal. PID: 8897 SIG: 9
+2024-01-11 22:28:54.806  8943-8943  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 242716250; UID 10191; state: DISABLED
+2024-01-11 22:28:54.818  8943-8943  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/data/com.example.ledapptwo01/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
+2024-01-11 22:28:54.818  8943-8943  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:28:54.818  8943-8943  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:28:54.900  8943-8943  nativeloader            com.example.ledapptwo01              D  Configuring clns-6 for other apk /data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/lib/x86_64:/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.ledapptwo01
+2024-01-11 22:28:54.917  8943-8943  GraphicsEnvironment     com.example.ledapptwo01              V  Currently set values for:
+2024-01-11 22:28:54.917  8943-8943  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_pkgs=[]
+2024-01-11 22:28:54.917  8943-8943  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_values=[]
+2024-01-11 22:28:54.918  8943-8943  GraphicsEnvironment     com.example.ledapptwo01              V  ANGLE GameManagerService for com.example.ledapptwo01: false
+2024-01-11 22:28:54.918  8943-8943  GraphicsEnvironment     com.example.ledapptwo01              V  com.example.ledapptwo01 is not listed in per-application setting
+2024-01-11 22:28:54.918  8943-8943  GraphicsEnvironment     com.example.ledapptwo01              V  Neither updatable production driver nor prerelease driver is supported.
+2024-01-11 22:28:54.964  8943-8964  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2024-01-11 22:28:54.966  8943-8964  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2024-01-11 22:28:54.968  8943-8964  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2024-01-11 22:28:54.980  8943-8943  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 263076149; UID 10191; state: DISABLED
+2024-01-11 22:28:55.024  8943-8943  AppCompatDelegate       com.example.ledapptwo01              D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-01-11 22:28:55.093  8943-8943  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2024-01-11 22:28:55.093  8943-8943  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2024-01-11 22:28:55.188  8943-8943  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 237531167; UID 10191; state: DISABLED
+2024-01-11 22:28:55.190  8943-8943  OpenGLRenderer          com.example.ledapptwo01              W  Unknown dataspace 0
+2024-01-11 22:28:55.215  8943-8962  OpenGLRenderer          com.example.ledapptwo01              W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2024-01-11 22:28:55.215  8943-8962  OpenGLRenderer          com.example.ledapptwo01              W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2024-01-11 22:28:55.253  8943-8962  Gralloc4                com.example.ledapptwo01              I  mapper 4.x is not supported
+2024-01-11 22:28:55.295  8943-8962  OpenGLRenderer          com.example.ledapptwo01              E  Unable to match the desired swap behavior.
+2024-01-11 22:28:56.513  8943-8962  EGL_emulation           com.example.ledapptwo01              D  app_time_stats: avg=126.09ms min=6.28ms max=1018.12ms count=9
+2024-01-11 22:28:56.698  8943-8943  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 210923482; UID 10191; state: ENABLED
+2024-01-11 22:28:56.865  8943-8962  OpenGLRenderer          com.example.ledapptwo01              E  Unable to match the desired swap behavior.
+2024-01-11 22:29:00.834  8943-9007  ProfileInstaller        com.example.ledapptwo01              D  Installing profile for com.example.ledapptwo01
+2024-01-11 22:29:22.635  8943-8943  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 78294732; UID 10191; state: ENABLED
+2024-01-11 22:29:22.701  8943-9014  CameraManagerGlobal     com.example.ledapptwo01              I  Connecting to camera service
+2024-01-11 22:29:22.711  8943-9014  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 250678880; UID 10191; state: ENABLED
+2024-01-11 22:29:22.740  8943-9014  CameraRepository        com.example.ledapptwo01              D  Added camera: 0
+2024-01-11 22:29:22.745  8943-8962  EGL_emulation           com.example.ledapptwo01              D  app_time_stats: avg=3678.77ms min=1.78ms max=25718.52ms count=7
+2024-01-11 22:29:22.797  8943-9014  Camera2CameraInfo       com.example.ledapptwo01              I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_3
+2024-01-11 22:29:22.804  8943-9014  CameraRepository        com.example.ledapptwo01              D  Added camera: 1
+2024-01-11 22:29:22.805  8943-9014  Camera2CameraInfo       com.example.ledapptwo01              I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_FULL
+2024-01-11 22:29:22.805  8943-9014  CameraValidator         com.example.ledapptwo01              D  Verifying camera lens facing on emu64xa, lensFacingInteger: null
+2024-01-11 22:29:22.846  8943-8943  CameraOrientationUtil   com.example.ledapptwo01              D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2024-01-11 22:29:22.846  8943-8943  CameraOrientationUtil   com.example.ledapptwo01              D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2024-01-11 22:29:22.859  8943-8943  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 236825255; UID 10191; state: DISABLED
+2024-01-11 22:29:22.861  8943-8943  CameraOrientationUtil   com.example.ledapptwo01              D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2024-01-11 22:29:22.862  8943-8943  CameraOrientationUtil   com.example.ledapptwo01              D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2024-01-11 22:29:22.869  8943-8943  DeferrableSurface       com.example.ledapptwo01              D  Surface created[total_surfaces=1, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@6de625b}
+2024-01-11 22:29:22.874  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Use case androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424 ACTIVE
+2024-01-11 22:29:22.878  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [] for camera: 0
+2024-01-11 22:29:22.880  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Use cases [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] now ATTACHED
+2024-01-11 22:29:22.881  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  All use case: [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] for camera: 0
+2024-01-11 22:29:22.882  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] for camera: 0
+2024-01-11 22:29:22.884  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Resetting Capture Session
+2024-01-11 22:29:22.885  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Releasing session in state INITIALIZED
+2024-01-11 22:29:22.886  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Attempting to force open the camera.
+2024-01-11 22:29:22.886  8943-9018  CameraStateRegistry     com.example.ledapptwo01              D  tryOpenCamera(Camera@e9e53fe[id=0]) [Available Cameras: 1, Already Open: false (Previous state: null)] --> SUCCESS
+2024-01-11 22:29:22.887  8943-9018  CameraStateRegistry     com.example.ledapptwo01              D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@e9e53fe[id=0]                         OPENING               
+                                                                                                    Camera@a9660f1[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2024-01-11 22:29:22.888  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Opening camera.
+2024-01-11 22:29:22.888  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+2024-01-11 22:29:22.889  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2024-01-11 22:29:22.889  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  Publishing new public camera state CameraState{type=OPENING, error=null}
+2024-01-11 22:29:22.889  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  All use case: [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] for camera: 0
+2024-01-11 22:29:23.053  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Use case androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424 ACTIVE
+2024-01-11 22:29:23.054  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] for camera: 0
+2024-01-11 22:29:23.057  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} CameraDevice.onOpened()
+2024-01-11 22:29:23.057  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Transitioning camera internal state: OPENING --> OPENED
+2024-01-11 22:29:23.058  8943-9018  CameraStateRegistry     com.example.ledapptwo01              D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@e9e53fe[id=0]                         OPEN                  
+                                                                                                    Camera@a9660f1[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2024-01-11 22:29:23.059  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+2024-01-11 22:29:23.059  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  Publishing new public camera state CameraState{type=OPEN, error=null}
+2024-01-11 22:29:23.060  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  All use case: [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] for camera: 0
+2024-01-11 22:29:23.067  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] for camera: 0
+2024-01-11 22:29:23.069  8943-9018  SyncCaptureSessionBase  com.example.ledapptwo01              D  [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@fa5ab41] getSurface...done
+2024-01-11 22:29:23.069  8943-9018  CaptureSession          com.example.ledapptwo01              D  Opening capture session.
+2024-01-11 22:29:23.080  8943-9018  DeferrableSurface       com.example.ledapptwo01              D  New surface in use[total_surfaces=1, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@6de625b}
+2024-01-11 22:29:23.080  8943-9018  DeferrableSurface       com.example.ledapptwo01              D  use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@6de625b
+2024-01-11 22:29:23.118  8943-9018  CaptureSession          com.example.ledapptwo01              D  Attempting to send capture request onConfigured
+2024-01-11 22:29:23.118  8943-9018  CaptureSession          com.example.ledapptwo01              D  Issuing request for session.
+2024-01-11 22:29:23.119  8943-9018  Camera2Cap...estBuilder com.example.ledapptwo01              D  createCaptureRequest
+2024-01-11 22:29:23.123  8943-9018  CaptureSession          com.example.ledapptwo01              D  CameraCaptureSession.onConfigured() mState=OPENED
+2024-01-11 22:29:23.123  8943-9018  CaptureSession          com.example.ledapptwo01              D  CameraCaptureSession.onReady() OPENED
+2024-01-11 22:29:23.230  8943-9035  OpenGLRenderer          com.example.ledapptwo01              D  --- Failed to create image decoder with message 'unimplemented'
+2024-01-11 22:29:23.235  8943-9035  AndroidRuntime          com.example.ledapptwo01              E  FATAL EXCEPTION: pool-2-thread-1
+                                                                                                    Process: com.example.ledapptwo01, PID: 8943
+                                                                                                    java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+                                                                                                    	at com.example.ledapptwo01.CameraActivity.convertToGrayscale(CameraActivity.java:182)
+                                                                                                    	at com.example.ledapptwo01.CameraActivity.access$500(CameraActivity.java:43)
+                                                                                                    	at com.example.ledapptwo01.CameraActivity$3.analyze(CameraActivity.java:138)
+                                                                                                    	at androidx.camera.core.ImageAnalysis.lambda$setAnalyzer$2(ImageAnalysis.java:528)
+                                                                                                    	at androidx.camera.core.ImageAnalysis$$ExternalSyntheticLambda2.analyze(Unknown Source:2)
+                                                                                                    	at androidx.camera.core.ImageAnalysisAbstractAnalyzer.lambda$analyzeImage$0$androidx-camera-core-ImageAnalysisAbstractAnalyzer(ImageAnalysisAbstractAnalyzer.java:286)
+                                                                                                    	at androidx.camera.core.ImageAnalysisAbstractAnalyzer$$ExternalSyntheticLambda1.run(Unknown Source:14)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+                                                                                                    	at java.lang.Thread.run(Thread.java:1012)
+2024-01-11 22:29:23.328  8943-8962  OpenGLRenderer          com.example.ledapptwo01              E  Unable to match the desired swap behavior.
+2024-01-11 22:29:24.048  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Use cases [androidx.camera.core.ImageAnalysis-b553c597-965a-46dc-85a0-59b21765c73717555424] now DETACHED for camera
+2024-01-11 22:29:24.048  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  All use case: [] for camera: 0
+2024-01-11 22:29:24.049  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Resetting Capture Session
+2024-01-11 22:29:24.050  8943-8943  DeferrableSurface       com.example.ledapptwo01              D  surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@6de625b
+2024-01-11 22:29:24.050  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Releasing session in state OPENED
+2024-01-11 22:29:24.051  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [] for camera: 0
+2024-01-11 22:29:24.052  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [] for camera: 0
+2024-01-11 22:29:24.052  8943-8943  WindowOnBackDispatcher  com.example.ledapptwo01              W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@d90dbd8
+2024-01-11 22:29:24.053  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Closing camera.
+2024-01-11 22:29:24.053  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Transitioning camera internal state: OPENED --> CLOSING
+2024-01-11 22:29:24.054  8943-9018  CameraStateRegistry     com.example.ledapptwo01              D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@e9e53fe[id=0]                         CLOSING               
+                                                                                                    Camera@a9660f1[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2024-01-11 22:29:24.054  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+2024-01-11 22:29:24.054  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  Publishing new public camera state CameraState{type=CLOSING, error=null}
+2024-01-11 22:29:24.055  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Resetting Capture Session
+2024-01-11 22:29:24.055  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Releasing session in state CLOSING
+2024-01-11 22:29:24.055  8943-9018  CaptureSession          com.example.ledapptwo01              D  onSessionFinished()
+2024-01-11 22:29:24.230  8943-9018  UseCaseAttachState      com.example.ledapptwo01              D  Active and attached use case: [] for camera: 0
+2024-01-11 22:29:24.232  8943-9018  DeferrableSurface       com.example.ledapptwo01              D  use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@6de625b
+2024-01-11 22:29:24.232  8943-9018  DeferrableSurface       com.example.ledapptwo01              D  Surface no longer in use[total_surfaces=1, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@6de625b}
+2024-01-11 22:29:24.232  8943-9018  DeferrableSurface       com.example.ledapptwo01              D  Surface terminated[total_surfaces=0, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@6de625b}
+2024-01-11 22:29:24.233  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} CameraDevice.onClosed()
+2024-01-11 22:29:24.234  8943-9018  Camera2CameraImpl       com.example.ledapptwo01              D  {Camera@e9e53fe[id=0]} Transitioning camera internal state: CLOSING --> INITIALIZED
+2024-01-11 22:29:24.235  8943-9018  CameraStateRegistry     com.example.ledapptwo01              D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@e9e53fe[id=0]                         CLOSED                
+                                                                                                    Camera@a9660f1[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 0 (Max allowed: 1)
+2024-01-11 22:29:24.235  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  New public camera state CameraState{type=CLOSED, error=null} from CLOSED and null
+2024-01-11 22:29:24.235  8943-9018  CameraStateMachine      com.example.ledapptwo01              D  Publishing new public camera state CameraState{type=CLOSED, error=null}
+2024-01-11 22:29:27.003  9055-9055  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/data/com.example.ledapptwo01/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
+2024-01-11 22:29:27.003  9055-9055  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:29:27.004  9055-9055  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:29:27.095  9055-9055  nativeloader            com.example.ledapptwo01              D  Configuring clns-6 for other apk /data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/lib/x86_64:/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.ledapptwo01
+2024-01-11 22:29:27.132  9055-9055  GraphicsEnvironment     com.example.ledapptwo01              V  Currently set values for:
+2024-01-11 22:29:27.132  9055-9055  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_pkgs=[]
+2024-01-11 22:29:27.132  9055-9055  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_values=[]
+2024-01-11 22:29:27.135  9055-9055  GraphicsEnvironment     com.example.ledapptwo01              V  ANGLE GameManagerService for com.example.ledapptwo01: false
+2024-01-11 22:29:27.135  9055-9055  GraphicsEnvironment     com.example.ledapptwo01              V  com.example.ledapptwo01 is not listed in per-application setting
+2024-01-11 22:29:27.135  9055-9055  GraphicsEnvironment     com.example.ledapptwo01              V  Neither updatable production driver nor prerelease driver is supported.
+2024-01-11 22:29:27.185  9055-9077  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2024-01-11 22:29:27.187  9055-9077  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2024-01-11 22:29:27.190  9055-9077  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2024-01-11 22:29:27.200  9055-9055  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 263076149; UID 10191; state: DISABLED
+2024-01-11 22:29:27.249  9055-9055  AppCompatDelegate       com.example.ledapptwo01              D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-01-11 22:29:27.325  9055-9055  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2024-01-11 22:29:27.325  9055-9055  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2024-01-11 22:29:27.438  9055-9055  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 237531167; UID 10191; state: DISABLED
+2024-01-11 22:29:27.440  9055-9055  OpenGLRenderer          com.example.ledapptwo01              W  Unknown dataspace 0
+2024-01-11 22:29:27.473  9055-9075  OpenGLRenderer          com.example.ledapptwo01              W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2024-01-11 22:29:27.473  9055-9075  OpenGLRenderer          com.example.ledapptwo01              W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2024-01-11 22:29:27.524  9055-9075  Gralloc4                com.example.ledapptwo01              I  mapper 4.x is not supported
+2024-01-11 22:29:27.576  9055-9075  OpenGLRenderer          com.example.ledapptwo01              E  Unable to match the desired swap behavior.
+2024-01-11 22:29:28.927  9055-9055  AndroidRuntime          com.example.ledapptwo01              D  Shutting down VM
+2024-01-11 22:29:28.931  9055-9055  AndroidRuntime          com.example.ledapptwo01              E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.ledapptwo01, PID: 9055
+                                                                                                    java.lang.IllegalStateException: Could not execute method for android:onClick
+                                                                                                    	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:473)
+                                                                                                    	at android.view.View.performClick(View.java:7659)
+                                                                                                    	at android.view.View.performClickInternal(View.java:7636)
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30156)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:958)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:205)
+                                                                                                    	at android.os.Looper.loop(Looper.java:294)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8177)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:468)
+                                                                                                    	at android.view.View.performClick(View.java:7659) 
+                                                                                                    	at android.view.View.performClickInternal(View.java:7636) 
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0) 
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30156) 
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:958) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:205) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:294) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8177) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971) 
+                                                                                                    Caused by: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.ledapptwo01/com.example.ledapptwo01.DrawActivity}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+                                                                                                    	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2236)
+                                                                                                    	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1878)
+                                                                                                    	at android.app.Activity.startActivityForResult(Activity.java:5589)
+                                                                                                    	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:780)
+                                                                                                    	at android.app.Activity.startActivityForResult(Activity.java:5547)
+                                                                                                    	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:761)
+                                                                                                    	at android.app.Activity.startActivity(Activity.java:6045)
+                                                                                                    	at android.app.Activity.startActivity(Activity.java:6012)
+                                                                                                    	at com.example.ledapptwo01.MainActivity.goToDrawPage(MainActivity.java:91)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at androidx.appcompat.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:468) 
+                                                                                                    	at android.view.View.performClick(View.java:7659) 
+                                                                                                    	at android.view.View.performClickInternal(View.java:7636) 
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0) 
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30156) 
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:958) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:205) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:294) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8177) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971) 
+2024-01-11 22:29:28.948  9055-9055  Process                 com.example.ledapptwo01              I  Sending signal. PID: 9055 SIG: 9
+2024-01-11 22:30:27.016  9097-9097  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/data/com.example.ledapptwo01/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
+2024-01-11 22:30:27.017  9097-9097  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:30:27.017  9097-9097  ziparchive              com.example.ledapptwo01              W  Unable to open '/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.dm': No such file or directory
+2024-01-11 22:30:27.118  9097-9097  nativeloader            com.example.ledapptwo01              D  Configuring clns-6 for other apk /data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/lib/x86_64:/data/app/~~vW0P0DkTCFeAaaq7UpOZWA==/com.example.ledapptwo01-iKL4cMQK4SQIL70eX6JMvA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.ledapptwo01
+2024-01-11 22:30:27.129  9097-9097  GraphicsEnvironment     com.example.ledapptwo01              V  Currently set values for:
+2024-01-11 22:30:27.129  9097-9097  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_pkgs=[]
+2024-01-11 22:30:27.129  9097-9097  GraphicsEnvironment     com.example.ledapptwo01              V    angle_gl_driver_selection_values=[]
+2024-01-11 22:30:27.129  9097-9097  GraphicsEnvironment     com.example.ledapptwo01              V  ANGLE GameManagerService for com.example.ledapptwo01: false
+2024-01-11 22:30:27.129  9097-9097  GraphicsEnvironment     com.example.ledapptwo01              V  com.example.ledapptwo01 is not listed in per-application setting
+2024-01-11 22:30:27.130  9097-9097  GraphicsEnvironment     com.example.ledapptwo01              V  Neither updatable production driver nor prerelease driver is supported.
+2024-01-11 22:30:27.177  9097-9120  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2024-01-11 22:30:27.186  9097-9120  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2024-01-11 22:30:27.189  9097-9120  libEGL                  com.example.ledapptwo01              D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2024-01-11 22:30:27.199  9097-9097  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 263076149; UID 10191; state: DISABLED
+2024-01-11 22:30:27.251  9097-9097  AppCompatDelegate       com.example.ledapptwo01              D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-01-11 22:30:27.322  9097-9097  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2024-01-11 22:30:27.322  9097-9097  ple.ledapptwo01         com.example.ledapptwo01              W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2024-01-11 22:30:27.439  9097-9097  Compatibil...geReporter com.example.ledapptwo01              D  Compat change id reported: 237531167; UID 10191; state: DISABLED
+2024-01-11 22:30:27.441  9097-9097  OpenGLRenderer          com.example.ledapptwo01              W  Unknown dataspace 0
+2024-01-11 22:30:27.471  9097-9118  OpenGLRenderer          com.example.ledapptwo01              W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2024-01-11 22:30:27.471  9097-9118  OpenGLRenderer          com.example.ledapptwo01              W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2024-01-11 22:30:27.509  9097-9118  Gralloc4                com.example.ledapptwo01              I  mapper 4.x is not supported
+2024-01-11 22:30:27.567  9097-9118  OpenGLRenderer          com.example.ledapptwo01              E  Unable to match the desired swap behavior.
+2024-01-11 22:30:32.711  9097-9128  ProfileInstaller        com.example.ledapptwo01              D  Installing profile for com.example.ledapptwo01
